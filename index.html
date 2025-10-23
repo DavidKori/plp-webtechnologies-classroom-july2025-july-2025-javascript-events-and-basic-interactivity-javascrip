@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Interactive Webpage Assignment</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Interactive Web Page</h1>
+
+  <!-- Part 2: Interactive Feature 1: Light/Dark Mode Toggle -->
+  <section>
+    <h2>Light/Dark Mode Toggle</h2>
+    <button id="toggleThemeBtn">Toggle Light/Dark Mode</button>
+  </section>
+
+  <!-- Part 2: Interactive Feature 2: Counter -->
+  <section>
+    <h2>Counter</h2>
+    <button id="decrementBtn">-</button>
+    <span id="counterValue">0</span>
+    <button id="incrementBtn">+</button>
+  </section>
+
+  <!-- Part 3: Form Validation -->
+  <section>
+    <h2>Registration Form</h2>
+    <form id="registrationForm" novalidate>
+      <label>
+        Name:
+        <input type="text" id="name" name="name" />
+        <span class="error" id="nameError"></span>
+      </label>
+      <br />
+      <label>
+        Email:
+        <input type="email" id="email" name="email" />
+        <span class="error" id="emailError"></span>
+      </label>
+      <br />
+      <label>
+        Password:
+        <input type="password" id="password" name="password" />
+        <span class="error" id="passwordError"></span>
+      </label>
+      <br />
+      <button type="submit">Register</button>
+      <p id="formMessage"></p>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

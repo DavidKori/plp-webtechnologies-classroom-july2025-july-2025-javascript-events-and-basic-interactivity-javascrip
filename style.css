@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: white;
+  color: black;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode {
+  background-color: #222;
+  color: white;
+}
+
+button {
+  margin: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+  margin-left: 10px;
+}
+
+#formMessage {
+  margin-top: 10px;
+  font-weight: bold;
+}
